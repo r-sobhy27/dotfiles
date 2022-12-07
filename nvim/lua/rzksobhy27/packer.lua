@@ -30,7 +30,6 @@ return packer.startup(function(use)
     use("ThePrimeagen/harpoon")
     use("numToStr/Comment.nvim")
     use("windwp/nvim-autopairs")
-    use("prichrd/netrw.nvim")
 
     use("nvim-telescope/telescope.nvim")
     use("nvim-telescope/telescope-ui-select.nvim")

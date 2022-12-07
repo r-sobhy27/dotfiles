@@ -21,7 +21,7 @@ function _M.get()
             c:raise()
         end, { description = "close", group = "client" }),
         awful.key(
-            { modkey, "shift" },
+            { modkey, "Shift" },
             "space",
             awful.client.floating.toggle,
             { description = "toggle floating", group = "client" }
