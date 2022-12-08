@@ -77,8 +77,6 @@ nnoremap("Y", "yg$")
 
 nnoremap("<C-d>", "<C-d>zz")
 nnoremap("<C-u>", "<C-u>zz")
-nnoremap("n", "nzzzv")
-nnoremap("N", "Nzzzv")
 
 inoremap("<C-c>", "<ESC>")
 vnoremap("<C-c>", "<ESC>")

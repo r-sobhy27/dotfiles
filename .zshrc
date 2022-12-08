@@ -27,6 +27,12 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
+# FZF
+export FZF_DEFAULT_OPTS='--no-height --layout=default'
+export FZF_DEFAULT_COMMAND='fd . -tf --color=never'
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+
 # zsh vi-mode
 bindkey -v
 bindkey -M viins '^C' vi-cmd-mode
