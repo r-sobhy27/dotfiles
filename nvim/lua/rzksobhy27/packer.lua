@@ -27,7 +27,6 @@ return packer.startup(function(use)
     use("wbthomason/packer.nvim")
 
     use("nvim-lua/plenary.nvim")
-    use("ThePrimeagen/harpoon")
     use("numToStr/Comment.nvim")
     use("windwp/nvim-autopairs")
 
@@ -72,7 +71,6 @@ return packer.startup(function(use)
 
     -- use("folke/tokyonight.nvim")
     use("ellisonleao/gruvbox.nvim")
-    use("nvim-tree/nvim-web-devicons")
 
     if not has_packer then
         packer.sync()

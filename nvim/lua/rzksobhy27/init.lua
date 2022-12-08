@@ -2,7 +2,6 @@ local paths = {
     "disable_bultins",
     "misc",
     "packer",
-    "harpoon",
     "telescope",
     "treesitter",
     "appearance",
